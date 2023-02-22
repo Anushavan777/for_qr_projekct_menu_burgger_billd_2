@@ -91,12 +91,12 @@ if (menuLinks.length > 0) {
 
 // mobile submenu handling
 
-const activeLink = document.querySelector(".menu__list ._active .menu__link");
-const subList = document.querySelector(".menu__sub-list");
-const subListArrow = document.querySelector("._active .menu__arrow");
-const menuBody = document.querySelector(".menu__body._active");
-activeLink.addEventListener("click", (e) => {
-  e.preventDefault();
-  subList.classList.toggle("activeClass");
-  subListArrow.classList.toggle("activeArrow");
-});
+// const activeLink = document.querySelector(".menu__list ._active .menu__link");
+// const subList = document.querySelector(".menu__sub-list");
+// const subListArrow = document.querySelector("._active .menu__arrow");
+// const menuBody = document.querySelector(".menu__body._active");
+// activeLink.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   subList.classList.toggle("activeClass");
+//   subListArrow.classList.toggle("activeArrow");
+// });
